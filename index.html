@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+
+    <!-- change html content -->
+    <h1>About me</h1>
+
+    <p id="name"> What is your name?</p>
+
+    <button type="button" onclick='document.getElementById("name").innerHTML="Jannatul Ferdousi Mim"'>
+        Click here</button>
+
+
+        <!-- change image -->
+        <h2>Image change!</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='image/jannatul.jpg'">Previous</button>
+
+<img id="myImage" src="image/Snapchat-2147295700~2.jpg" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='image/Snapchat-2147295700~2.jpg'">Next</button>
+
+
+<!-- change font size -->
+<p id="demo"> Font size check!</p>
+
+    <button type="button" onclick='document.getElementById("demo").style.fontSize="60px"'>
+        Check here</button>
+
+
+    <!-- hide elements -->
+    <p id="hide">JavaScript can hide HTML elements.Click belwo to hide it!</p>
+
+    <button type="button" onclick="document.getElementById('hide').style.display='none'">Click Me!</button>
+
+
+    <!-- display block -->
+    <h2>JavaScript can show hidden HTML elements.</h2>
+
+    <h1 id="hidden" style="display:none">I'm here! So what are you looking for????</h1>
+    
+    <button type="button" onclick="document.getElementById('hidden').style.display='block'">Click Me!</button>
+    
+</body>
+</html>
